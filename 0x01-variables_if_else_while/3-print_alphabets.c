@@ -1,31 +1,19 @@
-#include <stdio.h>                                                                                                                      
+#include <stdio.h>
 
-                                                                                                                                        
-
-/*                                                                                                                                      
+/*
+ * main -Tntrt point
+ * Description: print lowercase and uppercase alphabets
+ * Return 0
  *
- *                                                                                                                                       * main - Entry point                                                                                                                   
- *
- *                                                                                                                                        * Description: print alphabetic letter                                                                                                 
- *
- *                                                                                                                                         * Return: 0 (success)                                                                                                                  
- *
- *                                                                                                                                          */                                                                                                                                     
+ */
+int main(void)
+{
+	car ch;
 
-int main(void)                                                                                                                          
-
-{                                                                                                                                       
-
-	        char ch;                                                                                                                        
-
-		                                                                                                                                        
-
-		        for (ch = 'a'; ch <= 'z'; ch++)                                                                                                 
-
-				                putchar(ch);                                                                                                            
-
-			        putchar('\n');                                                                                                                  
-
-				        return (0);                                                                                                                     
-
-} 
+	for(ch ='a'; ch < 'z'; ch++)
+		putchar(ch);
+	for(ch ='A'; ch < 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
+	return (0);
+}
