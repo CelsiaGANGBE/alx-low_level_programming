@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /*
- *main - Entry point 
- *Description: print alphabetic letter 
+ * main - Entry point
+ * Description: print alphabetic letter
  * Return: 0 (success)
  */
 int main(void)
