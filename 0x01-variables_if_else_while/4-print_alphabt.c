@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main * Entry point
- * Description:  a program that prints the alphabet in lowercase, followed by a new line
+ * main Entry point
+ * Desription:  a program that print 
  * Return: 0 (Success)
  */
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if(ch == 'q' || ch == 'e')
+		if (ch == 'q' || ch == 'e')
 			continue;
 		putchar(ch);
 	}
