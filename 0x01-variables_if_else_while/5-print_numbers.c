@@ -1,31 +1,16 @@
 #include <stdio.h>
 
-
-
-/**
- *
- *  * main - Entry point
- *
- *   * Description: print number 0 to 9
- *
- *    * Return: 0 (success)
- *
- *     */
-
+/*
+ * main -  prints all single digit numbers of base 10 
+ * Description: All your code should be in the main function
+ * Return: 0
+ */
 int main(void)
-
 {
+	int i;
 
-		int num;
-
-
-
-			for (num = 0; num <= 9; num++)
-
-						printf("%d", num);
-
-				printf("\n");
-
-					return (0);
-
+	for(i=0; i<=9; i++)
+		printf("%d", i);
+	printf("\n");
+	return (0);
 }
