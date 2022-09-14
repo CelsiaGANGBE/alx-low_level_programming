@@ -1,15 +1,15 @@
-#inclure « main.h »
+#include "main.h"
 
 /**
- * _abs - imprimer la valeur absolue d’un entier
- * @num : le numéro à traiter
+ * _abs - print the absolute value of an integer
+ * @num: the number to be processed
  *
- * Retour : la valeur absolue d’un entier
+ * Return: the absolute value of an integer
  */
 int _abs(int num)
 {
-	si (nombre >= 0)
-		retour (nombre);
-	autre
-		retour (-num);
+	if (num >= 0)
+		return (num);
+	else
+		return (-num);
 }
