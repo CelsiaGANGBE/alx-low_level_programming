@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "mainn.h"
 
 /**
  * factorial - computer the factorial of a number

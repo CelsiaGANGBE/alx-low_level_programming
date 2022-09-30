@@ -19,10 +19,11 @@ int is_palindrome(char *s)
  *
  * @s: the character string to process
  * @low: the starting index of the string
+ * B
  * @high: the last index of the string
  *
  * Return: 1 if the string is a palindrome, 0 otherwise
- */
+ */OOB
 int check_palindrome(char *s, int low, int high)
 {
 	if (low > high)
